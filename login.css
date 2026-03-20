@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-top: 15%;
+    background: black;
+}
+.main-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+.container{
+    background: red;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.container:hover{
+    background: green;
+    border-radius: 20px;
+    
+}
+input{
+    margin: 8px;
+    padding: 7px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(88, 86, 86);
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+}
+input:hover{
+    color:white;
+    background: black;
+}
+.btn button{
+    margin: 10px;
+    padding: 8px;
+    width: 90px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(88, 86, 86);
+}
+.btn button a{
+    text-decoration: none;
+    color:  rgb(95, 89, 89);
+}
+.btn button:hover{
+    color: white;
+    background: black;
+}
+.social-links i{
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+.social-links i:hover{
+    color: rgb(191, 185, 185);
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="https://www.scdn.co/i/_global/twitter_card-default.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h2>Login To Spotify</h2>
+    
+                <input type="text" placeholder="Name" class="name"><br>
+                <input type="email" placeholder="Email" class="mail"><br>
+                <input type="password" placeholder="password" class="pass"><br>
+
+            <div class="btn">
+                <button onclick="sub()"><a href="index.html">Submit</a></button>
+            </div>
+
+            <div class="social-links">
+                <div>
+                   <a href="https://www.instagram.com/subrah_manya_18?igsh=MWR0MmRhMmVodmN4ag=="><i class="fa-brands fa-instagram"></i></a>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <script>
+        function sub(){
+
+            const name = document.getElementById('name').value;
+            const mail = document.getElementById('mail').value;
+            const pass = document.getElementById('pass').value;
+            
+            console.log('name: '+name+ "\n Email: "+mail+ "\n password");
+        }
+    </script>
+</body>
+</html>
